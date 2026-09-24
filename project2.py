@@ -1,5 +1,7 @@
 print("Hello, today you will make a few choices! Ready?")
 input()
+print("guidelines: if a choice is given, type in your answer as the choice was typed in. example: if the code gives you a choice to go to the mall, youre answer would be 'go to the mall' not 'mall'")
+input()
 print("Alright, let's go!")
 answer1 = input("You finish school. Will you go home, or go to basketball practice?")
 if answer1 == "go to basketball practice":
