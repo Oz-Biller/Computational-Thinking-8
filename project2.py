@@ -14,6 +14,10 @@ if answer1 == "go to basketball practice":
             print("you go home sore and tired, and go to bed")
         elif answer3 == "do pushups":
             print("you go home sore and tired, and go to bed")
+        else:
+            print("error")
+    else:
+        print("error")
 elif answer1 == "go home":
     answer4 = input("Do you want to play games or watch tv")
     if answer4 == "play games":
@@ -22,9 +26,14 @@ elif answer1 == "go home":
             print("you are full and go home and sleep")
         elif answer5 == "chipotle":
             print("you are full and go home and sleep")
+        else:
+            print("error")
     elif answer4 == "watch tv":
         answer5 = input("you get hungry. do you go to daves hot chicken or chipotle?")
         if answer5 == "daves hot chicken":
             print("you are full and go home and sleep")
         elif answer5 == "chipotle":
             print("you are full and go home and sleep")
+        else:
+            print("error")
+        
