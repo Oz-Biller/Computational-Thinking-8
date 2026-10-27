@@ -48,6 +48,8 @@ elif answer5 == "C":
 
 answer6 = input("do you like A baggy clothes B tighter clothing C in between")
 
+#tells your final result
+
 print(f"Your final scores are {skater_style} for skater style, {athlete_style} for athletic style, and {streetwear_style} for streetwear style")
 
 if skater_style > athlete_style and skater_style > streetwear_style:
@@ -57,7 +59,7 @@ elif athlete_style > skater_style and athlete_style > streetwear_style:
 elif streetwear_style > skater_style and streetwear_style > athlete_style:
     print("You like streetwear")
 
-
+#gives a message depending on your result
 if skater_style > athlete_style and skater_style > streetwear_style or streetwear_style > skater_style and streetwear_style > athlete_style:
     print("You like baggier clothing most likely")
 elif athlete_style > skater_style and athlete_style > streetwear_style:
