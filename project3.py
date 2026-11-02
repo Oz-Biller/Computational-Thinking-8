@@ -51,11 +51,13 @@ answer6 = input("do you like A baggy clothes B tighter clothing C in between")
 #tells your final result
 
 print(f"Your final scores are {skater_style} for skater style, {athlete_style} for athletic style, and {streetwear_style} for streetwear style")
-
+#messages if skater_style has the most points
 if skater_style > athlete_style and skater_style > streetwear_style:
     print("You like skater clothing")
+#messages if athlete_style has the most points
 elif athlete_style > skater_style and athlete_style > streetwear_style:
     print("You like athletic clothing")
+#messages if streetwear_style has the most points
 elif streetwear_style > skater_style and streetwear_style > athlete_style:
     print("You like streetwear")
 
