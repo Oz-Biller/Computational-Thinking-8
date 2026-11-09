@@ -1,12 +1,12 @@
 import random 
-
+#imports a list of random words to choose from
 word_list = ["heart","loopy","audio","laugh","ocean","trial","goofy","black","probe","taker","maker","curse","poker","beach","clock","pluck","truck","goopy","xylyl","crwth","daddy","snipe","crank","blank","truth","zesty","musty","dusty","rusty","block","clank","brain","claim","boink","poise","noise","plain","shame","train","apple","grape","peach","mango","lemon","berry","melon","guava","olive","papal","cider","bread","toast","honey","sugar","spice","salty","sweet","cream","flour","plant","grass","seeds","roots","bloom","petal","shrub","crown","stone","river","ocean","cloud","storm","sunny","windy","night","dream","smile","laugh","dance","music","piano","viola","sword","spear","chair","table","shelf","couch","rugby","scrub","crazy","brail"]
 hidden_word = random.choice(word_list)
 
 
 
 
-
+#loops the word guess, giving infinite guesses
 for i in range(100):
     guess_word = input()
     output = ""
@@ -51,4 +51,5 @@ for i in range(100):
     print(output)
     if output == "🟩🟩🟩🟩🟩":
         print("You win")
+    #prints the amount of guesses it took the player to solve the word
         print(f"It took you {i+1} guesses")
